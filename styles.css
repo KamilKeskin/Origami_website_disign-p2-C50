@@ -1,0 +1,62 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+.header a{
+    position: absolute;
+    right: 1%; 
+    bottom: 30%
+}
+
+.header Origami Disigns{
+    position: absolute;
+    right: 50%; 
+    bottom: 30%
+}
+
+.bodyimg{
+    position: relative;
+    background-color: darkorchid;
+}
+
+.bodyimg p{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    opacity:1;
+}
+
+.bodyimg h3{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 20%;
+    opacity:1;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami {
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: white;
+
+    width:310px;
+    font-family: fantasy;
+}
